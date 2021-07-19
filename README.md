@@ -1,1 +1,2 @@
-# music-genre-classification
+# General Info
+This is a music genre classification project with CNNs based on the mel spectrograms generated from audio files. Dataset was taken from [kaggle](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification). Preprocessing and training is done in the **music_classification_prep_train** notebook. Best model is deployed on [Streamlit](https://share.streamlit.io/twrzeszcz/music-genre-classification/main/app_streamlit.py) where user can upload a *wav* audio file and predict the music genre.
